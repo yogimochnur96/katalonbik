@@ -19,5 +19,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://twitter.com/')
 
+WebUI.click(findTestObject('Maintenance/Page_Twitter Its whats happening  Twitter/div_Log in'))
+
+WebUI.setText(findTestObject('Maintenance/Page_Login on Twitter  Twitter/input_Phone email or username_sessionusername_or_email'), 
+    'VitaVitaris')
+
+WebUI.setText(findTestObject('Maintenance/Page_Login on Twitter  Twitter/input_Password_sessionpassword'), '@gemay99')
+
+WebUI.click(findTestObject('Maintenance/Page_Login on Twitter  Twitter/div_Log in'))
+
+WebUI.verifyElementPresent(findTestObject('Maintenance/span_Beranda'), 20)
+
 WebUI.closeBrowser()
 
