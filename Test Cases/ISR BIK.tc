@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_testconnect</name>
+   <name>ISR BIK</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>36dfbecc-151f-4a9d-9283-2aff62db6d3f</testCaseGuid>
+   <testCaseGuid>e2a42c77-20b9-4119-a0ce-e352245cfe15</testCaseGuid>
 </TestCaseEntity>
