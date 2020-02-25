@@ -22,23 +22,71 @@ WebUI.navigateToUrl('https://twitter.com')
 
 WebUI.click(findTestObject('Maintenance/Halaman Awal/div_Log in'))
 
-WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email'), 'VitaVitaris')
+WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email'), 'Maahkinderjoy')
 
-WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Password_sessionpassword'), '@gemay99')
+WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Password_sessionpassword'), 'alamsyah333')
 
 WebUI.click(findTestObject('Maintenance/Halaman Login/div_Log in'))
 
 WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 99)
+not_run: WebUI.scrollToPosition(0, 9)
 
-WebUI.scrollToPosition(0, 99)
+not_run: WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 99)
+not_run: WebUI.scrollToPosition(0, 99)
 
-WebUI.scrollToPosition(0, 99)
+not_run: WebUI.delay(10)
 
-WebUI.click(findTestObject('Maintenance/Halaman Beranda/div_3Notifikasi'))
+not_run: WebUI.scrollToPosition(0, 999)
+
+not_run: WebUI.delay(10)
+
+not_run: WebUI.scrollToPosition(0, 9999)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.HOME))
+
+WebUI.setText(findTestObject('Maintenance/Search Mutualan'), 'mutualan rt')
+
+WebUI.click(findTestObject('Maintenance/Klik Span Mutualan RT'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(20)
+
+WebUI.click(findTestObject('Maintenance/Klik Tweet Pertama Mutualan'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Maintenance/Klik Retweet'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Maintenance/Follow 1'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Maintenance/Follow 2'))
+
+WebUI.delay(20)
+
+WebUI.click(findTestObject('Maintenance/Follow 3'))
+
+WebUI.delay(15)
+
+WebUI.click(findTestObject('Maintenance/Follow 4'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Maintenance/Follow 5'))
+
+WebUI.delay(15)
+
+WebUI.click(findTestObject('Maintenance/Button Close'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Maintenance/Button Home'))
+
+not_run: WebUI.click(findTestObject('Maintenance/Halaman Beranda/div_3Notifikasi'))
 
 WebUI.click(findTestObject('Maintenance/Logout/div_Selengkapnya'))
 
