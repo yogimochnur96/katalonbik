@@ -14,21 +14,35 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://twitter.com/')
+WebUI.navigateToUrl('https://twitter.com')
 
-WebUI.click(findTestObject('Maintenance/Page_Twitter Its whats happening  Twitter/div_Log in'))
+WebUI.click(findTestObject('Maintenance/Halaman Awal/div_Log in'))
 
-WebUI.setText(findTestObject('Maintenance/Page_Login on Twitter  Twitter/input_Phone email or username_sessionusername_or_email'), 
-    'VitaVitaris')
+WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email'), 'VitaVitaris')
 
-WebUI.setText(findTestObject('Maintenance/Page_Login on Twitter  Twitter/input_Password_sessionpassword'), '@gemay99')
+WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Password_sessionpassword'), '@gemay99')
 
-WebUI.click(findTestObject('Maintenance/Page_Login on Twitter  Twitter/div_Log in'))
+WebUI.click(findTestObject('Maintenance/Halaman Login/div_Log in'))
 
-WebUI.verifyElementPresent(findTestObject('Maintenance/span_Beranda'), 20)
+WebUI.delay(10)
+
+WebUI.scrollToPosition(0, 99)
+
+WebUI.scrollToPosition(0, 99)
+
+WebUI.scrollToPosition(0, 99)
+
+WebUI.scrollToPosition(0, 99)
+
+WebUI.click(findTestObject('Maintenance/Halaman Beranda/div_3Notifikasi'))
+
+WebUI.click(findTestObject('Maintenance/Logout/div_Selengkapnya'))
+
+WebUI.click(findTestObject('Maintenance/Keluar/div_Keluar'))
 
 WebUI.closeBrowser()
 
