@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Maintenance,,,,2020-02-26 18:46:35,2020-02-26 18:46:38,3.065s,FAILED
+,,,,,,,
+Test Cases/Maintenance 1,,,,2020-02-26 18:46:35,2020-02-26 18:46:37,1.742s,FAILED
+"info = callTestCase(findTestCase(""PreapareData""), [:], CONTINUE_ON_FAILURE)",,,,2020-02-26 18:46:36,2020-02-26 18:46:37,1.137s,FAILED
+username = username,,,,2020-02-26 18:46:37,2020-02-26 18:46:37,0.009s,PASSED
+,,,,,,,
+Test Cases/Maintenance 2,,,,2020-02-26 18:46:37,2020-02-26 18:46:38,0.891s,FAILED
+"info = callTestCase(findTestCase(""PreapareData""), [:], CONTINUE_ON_FAILURE)",,,,2020-02-26 18:46:38,2020-02-26 18:46:38,0.177s,FAILED
+username = username,,,,2020-02-26 18:46:38,2020-02-26 18:46:38,0.001s,PASSED

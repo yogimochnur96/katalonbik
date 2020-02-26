@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Maintenance 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b67ad21-90a1-431a-a23a-bacc6066c945</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6df8b18a-dc85-466f-8822-0ce5d790d25b</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fabfe04a-dd28-4598-b956-e345564414e8</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

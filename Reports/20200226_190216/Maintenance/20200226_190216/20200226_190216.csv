@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Maintenance,Firefox 73.0,,,2020-02-26 19:02:35,2020-02-26 19:04:12,1m - 37.200s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-26 19:02:35,2020-02-26 19:03:21,45.675s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-26 19:02:36,2020-02-26 19:02:42,6.762s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-26 19:02:42,2020-02-26 19:02:47,4.744s,PASSED
+delay(5),Firefox 73.0,,,2020-02-26 19:02:47,2020-02-26 19:02:52,5.043s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-26 19:02:52,2020-02-26 19:02:53,0.887s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), findTestData(""data1"").getValue(1, 1))",Firefox 73.0,,,2020-02-26 19:02:53,2020-02-26 19:02:56,2.900s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), findTestData(""data1"").getValue(2, 1))",Firefox 73.0,,,2020-02-26 19:02:56,2020-02-26 19:02:57,0.745s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-26 19:02:57,2020-02-26 19:03:00,2.890s,PASSED
+delay(10),Firefox 73.0,,,2020-02-26 19:03:00,2020-02-26 19:03:10,10.004s,PASSED
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-26 19:03:10,2020-02-26 19:03:10,0.886s,PASSED
+delay(5),Firefox 73.0,,,2020-02-26 19:03:10,2020-02-26 19:03:15,5.006s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-26 19:03:15,2020-02-26 19:03:16,0.708s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-26 19:03:16,2020-02-26 19:03:21,4.588s,PASSED
+,,,,,,,
+Test Cases/Maintenance 2,Firefox 73.0,,,2020-02-26 19:03:21,2020-02-26 19:04:12,51.113s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-26 19:03:21,2020-02-26 19:03:26,4.852s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-26 19:03:26,2020-02-26 19:03:30,3.573s,PASSED
+delay(5),Firefox 73.0,,,2020-02-26 19:03:30,2020-02-26 19:03:35,5.004s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-26 19:03:35,2020-02-26 19:03:35,0.676s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), findTestData(""data1"").getValue(1, 2))",Firefox 73.0,,,2020-02-26 19:03:35,2020-02-26 19:03:36,1.017s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), findTestData(""data1"").getValue(2, 2))",Firefox 73.0,,,2020-02-26 19:03:36,2020-02-26 19:03:37,0.624s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-26 19:03:37,2020-02-26 19:03:39,2.376s,PASSED
+delay(10),Firefox 73.0,,,2020-02-26 19:03:39,2020-02-26 19:03:49,10.004s,PASSED
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-26 19:03:49,2020-02-26 19:03:56,6.917s,PASSED
+delay(5),Firefox 73.0,,,2020-02-26 19:03:56,2020-02-26 19:04:01,5.005s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-26 19:04:01,2020-02-26 19:04:04,3.002s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-26 19:04:04,2020-02-26 19:04:12,7.604s,PASSED

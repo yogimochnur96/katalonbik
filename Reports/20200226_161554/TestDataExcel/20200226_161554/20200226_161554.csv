@@ -1,0 +1,198 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestDataExcel,Chrome 80.0.3987.122,,,2020-02-26 16:15:58,2020-02-26 16:17:12,1m - 13.952s,PASSED
+,,,,,,,
+Test Cases/Account Maintenance,Chrome 80.0.3987.122,,,2020-02-26 16:15:58,2020-02-26 16:16:38,40.362s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.122,,,2020-02-26 16:15:59,2020-02-26 16:16:05,6.616s,PASSED
+"navigateToUrl(""https://twitter.com"")",Chrome 80.0.3987.122,,,2020-02-26 16:16:05,2020-02-26 16:16:08,3.024s,PASSED
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:16:08,2020-02-26 16:16:14,5.072s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:14,2020-02-26 16:16:14,0.784s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), findTestData(""data1"").getValue(1, 1))",Chrome 80.0.3987.122,,,2020-02-26 16:16:14,2020-02-26 16:16:17,2.359s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), findTestData(""data1"").getValue(2, 1))",Chrome 80.0.3987.122,,,2020-02-26 16:16:17,2020-02-26 16:16:18,0.869s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:18,2020-02-26 16:16:20,2.844s,PASSED
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:20,2020-02-26 16:16:30,10.007s,PASSED
+"scrollToPosition(0, 9)",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.004s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.002s,NOT_RUN
+"scrollToPosition(0, 99)",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.002s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.002s,NOT_RUN
+"sendKeys(findTestObject(null), Keys.chord(HOME))",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.003s,NOT_RUN
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+delay(20),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.011s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.007s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.003s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.002s,NOT_RUN
+delay(20),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+delay(15),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:30,2020-02-26 16:16:31,0.005s,NOT_RUN
+delay(15),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.007s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.003s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+"scrollToPosition(0, 9)",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.005s,NOT_RUN
+"scrollToPosition(0, 999)",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.005s,NOT_RUN
+"scrollToPosition(0, 9999)",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+"sendKeys(findTestObject(null), Keys.chord(HOME))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.003s,NOT_RUN
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.004s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.011s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.004s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.004s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.003s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.002s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.005s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+delay(15),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:31,0.628s,PASSED
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:16:31,2020-02-26 16:16:36,5.004s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:36,2020-02-26 16:16:37,1.145s,PASSED
+closeBrowser(),Chrome 80.0.3987.122,,,2020-02-26 16:16:37,2020-02-26 16:16:38,1.054s,PASSED
+,,,,,,,
+Test Cases/Account Maintenance,Chrome 80.0.3987.122,,,2020-02-26 16:16:39,2020-02-26 16:17:12,33.006s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.122,,,2020-02-26 16:16:39,2020-02-26 16:16:41,2.234s,PASSED
+"navigateToUrl(""https://twitter.com"")",Chrome 80.0.3987.122,,,2020-02-26 16:16:41,2020-02-26 16:16:44,3.167s,PASSED
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:16:44,2020-02-26 16:16:49,5.006s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:49,2020-02-26 16:16:49,0.428s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), findTestData(""data1"").getValue(1, 1))",Chrome 80.0.3987.122,,,2020-02-26 16:16:49,2020-02-26 16:16:51,1.161s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), findTestData(""data1"").getValue(2, 1))",Chrome 80.0.3987.122,,,2020-02-26 16:16:51,2020-02-26 16:16:51,0.597s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Chrome 80.0.3987.122,,,2020-02-26 16:16:51,2020-02-26 16:16:54,2.601s,PASSED
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:16:54,2020-02-26 16:17:04,10.003s,PASSED
+"scrollToPosition(0, 9)",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.004s,NOT_RUN
+"scrollToPosition(0, 99)",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"sendKeys(findTestObject(null), Keys.chord(HOME))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(20),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(20),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(15),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(15),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"scrollToPosition(0, 9)",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"sendKeys(findTestObject(null), Keys.chord(HOME))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.003s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.000s,NOT_RUN
+delay(10),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.001s,NOT_RUN
+delay(15),Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:04,0.007s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:04,2020-02-26 16:17:05,1.185s,PASSED
+delay(5),Chrome 80.0.3987.122,,,2020-02-26 16:17:05,2020-02-26 16:17:10,5.004s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Chrome 80.0.3987.122,,,2020-02-26 16:17:10,2020-02-26 16:17:11,0.533s,PASSED
+closeBrowser(),Chrome 80.0.3987.122,,,2020-02-26 16:17:11,2020-02-26 16:17:12,0.899s,PASSED
