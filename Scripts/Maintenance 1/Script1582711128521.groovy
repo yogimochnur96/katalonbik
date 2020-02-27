@@ -24,33 +24,31 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Maintenance/Halaman Awal/div_Log in'))
 
-WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email'), findTestData(
-        'data1').getValue(1, 1))
+WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email'), Username)
 
-WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Password_sessionpassword'), findTestData('data1').getValue(
-        2, 1))
+WebUI.setText(findTestObject('Maintenance/Halaman Login/input_Password_sessionpassword'), Password)
 
 WebUI.click(findTestObject('Maintenance/Halaman Login/div_Log in'))
 
 WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 9)
+not_run: WebUI.scrollToPosition(0, 9)
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 99)
+not_run: WebUI.scrollToPosition(0, 99)
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 999)
+not_run: WebUI.scrollToPosition(0, 999)
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 9999)
+not_run: WebUI.scrollToPosition(0, 9999)
 
-WebUI.scrollToPosition(0, 0)
+not_run: WebUI.scrollToPosition(0, 0)
 
-WebUI.delay(5)
+not_run: WebUI.delay(5)
 
 not_run: WebUI.setText(findTestObject('Maintenance/Search Mutualan'), 'mutualan rt')
 
@@ -96,31 +94,31 @@ not_run: WebUI.click(findTestObject('Maintenance/Button Home'))
 
 not_run: WebUI.delay(10)
 
-WebUI.click(findTestObject('Maintenance/Button Explore'))
+not_run: WebUI.click(findTestObject('Maintenance/Button Explore'))
 
-WebUI.delay(5)
+not_run: WebUI.delay(5)
 
-WebUI.click(findTestObject('Maintenance/Show More Hastag'))
+not_run: WebUI.click(findTestObject('Maintenance/Show More Hastag'))
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 9)
+not_run: WebUI.scrollToPosition(0, 9)
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 99)
+not_run: WebUI.scrollToPosition(0, 99)
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 999)
+not_run: WebUI.scrollToPosition(0, 999)
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-WebUI.scrollToPosition(0, 9999)
+not_run: WebUI.scrollToPosition(0, 9999)
 
-WebUI.scrollToPosition(0, 0)
+not_run: WebUI.scrollToPosition(0, 0)
 
-WebUI.delay(5)
+not_run: WebUI.delay(5)
 
 not_run: WebUI.click(findTestObject('Maintenance/Button Notifikasi'))
 

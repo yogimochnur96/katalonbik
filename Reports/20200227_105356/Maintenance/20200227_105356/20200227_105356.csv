@@ -1,0 +1,992 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Maintenance,Firefox 73.0,,,2020-02-27 10:54:00,2020-02-27 11:01:51,7m - 51.941s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 10:54:00,2020-02-27 10:54:51,51.395s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 10:54:01,2020-02-27 10:54:10,9.544s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 10:54:10,2020-02-27 10:54:15,4.899s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:54:15,2020-02-27 10:54:20,5.034s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 10:54:20,2020-02-27 10:54:21,1.198s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 10:54:21,2020-02-27 10:54:22,0.807s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 10:54:22,2020-02-27 10:54:23,0.611s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 10:54:23,2020-02-27 10:54:26,2.898s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 10:54:26,2020-02-27 10:54:36,10.006s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.013s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.004s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.004s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.006s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.004s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.006s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.005s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.005s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.004s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.007s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.011s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.006s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.007s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.011s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.008s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.002s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:54:36,2020-02-27 10:54:37,0.968s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:54:37,2020-02-27 10:54:42,5.002s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 10:54:42,2020-02-27 10:54:43,0.705s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 10:54:43,2020-02-27 10:54:51,8.717s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 10:54:51,2020-02-27 10:55:39,47.768s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 10:54:52,2020-02-27 10:54:58,6.102s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 10:54:58,2020-02-27 10:55:03,5.257s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:55:03,2020-02-27 10:55:08,5.002s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 10:55:08,2020-02-27 10:55:09,0.700s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 10:55:09,2020-02-27 10:55:10,1.151s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 10:55:10,2020-02-27 10:55:11,0.570s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 10:55:11,2020-02-27 10:55:14,3.024s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 10:55:14,2020-02-27 10:55:24,10.004s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.004s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.002s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.002s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.008s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.005s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.003s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:24,0.689s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:55:24,2020-02-27 10:55:29,5.002s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 10:55:29,2020-02-27 10:55:30,0.630s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 10:55:30,2020-02-27 10:55:39,9.276s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 10:55:39,2020-02-27 10:56:24,44.428s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 10:55:39,2020-02-27 10:55:45,5.194s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 10:55:45,2020-02-27 10:55:50,5.572s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:55:50,2020-02-27 10:55:55,5.003s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 10:55:55,2020-02-27 10:55:56,0.738s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 10:55:56,2020-02-27 10:55:57,1.068s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 10:55:57,2020-02-27 10:55:58,0.865s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 10:55:58,2020-02-27 10:56:01,2.991s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 10:56:01,2020-02-27 10:56:11,10.003s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.004s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.010s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.006s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.016s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.007s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.011s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.017s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.008s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:11,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:56:11,2020-02-27 10:56:12,0.673s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:56:12,2020-02-27 10:56:17,5.002s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 10:56:17,2020-02-27 10:56:17,0.645s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 10:56:17,2020-02-27 10:56:24,6.431s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 10:56:24,2020-02-27 10:57:12,47.795s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 10:56:24,2020-02-27 10:56:30,6.060s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 10:56:30,2020-02-27 10:56:36,6.089s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:56:36,2020-02-27 10:56:41,5.002s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 10:56:41,2020-02-27 10:56:42,0.948s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 10:56:42,2020-02-27 10:56:43,0.991s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 10:56:43,2020-02-27 10:56:44,0.788s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 10:56:44,2020-02-27 10:56:47,2.856s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 10:56:47,2020-02-27 10:56:57,10.005s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.003s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.003s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.004s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.004s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:56:57,0.780s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:56:57,2020-02-27 10:57:02,5.005s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 10:57:02,2020-02-27 10:57:03,0.718s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 10:57:03,2020-02-27 10:57:12,8.434s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 10:57:12,2020-02-27 10:57:57,45.495s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 10:57:12,2020-02-27 10:57:17,5.571s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 10:57:17,2020-02-27 10:57:22,4.480s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:57:22,2020-02-27 10:57:27,5.003s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 10:57:27,2020-02-27 10:57:28,0.983s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 10:57:28,2020-02-27 10:57:29,1.532s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 10:57:29,2020-02-27 10:57:30,0.679s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 10:57:30,2020-02-27 10:57:33,2.934s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 10:57:33,2020-02-27 10:57:43,10.003s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.004s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:43,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:57:43,2020-02-27 10:57:44,1.459s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:57:44,2020-02-27 10:57:49,5.002s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 10:57:49,2020-02-27 10:57:50,0.673s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 10:57:50,2020-02-27 10:57:57,7.079s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 10:57:57,2020-02-27 10:58:47,50.127s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 10:57:57,2020-02-27 10:58:03,5.416s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 10:58:03,2020-02-27 10:58:08,5.679s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:58:08,2020-02-27 10:58:13,5.004s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 10:58:13,2020-02-27 10:58:15,1.326s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 10:58:15,2020-02-27 10:58:16,1.517s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 10:58:16,2020-02-27 10:58:17,0.723s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 10:58:17,2020-02-27 10:58:20,3.038s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 10:58:20,2020-02-27 10:58:30,10.003s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.002s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.003s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.009s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.007s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.016s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.005s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.002s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:30,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:58:30,2020-02-27 10:58:32,1.922s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:58:32,2020-02-27 10:58:37,5.005s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 10:58:37,2020-02-27 10:58:38,0.877s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 10:58:38,2020-02-27 10:58:47,9.468s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 10:58:47,2020-02-27 10:59:32,44.493s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 10:58:47,2020-02-27 10:58:52,4.885s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 10:58:52,2020-02-27 10:58:56,4.219s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:58:56,2020-02-27 10:59:01,5.004s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 10:59:01,2020-02-27 10:59:03,1.109s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 10:59:03,2020-02-27 10:59:04,1.055s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 10:59:04,2020-02-27 10:59:04,0.645s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 10:59:04,2020-02-27 10:59:07,3.047s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 10:59:07,2020-02-27 10:59:17,10.003s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.002s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.016s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.004s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:17,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 10:59:17,2020-02-27 10:59:18,0.786s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:59:18,2020-02-27 10:59:23,5.003s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 10:59:23,2020-02-27 10:59:24,0.670s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 10:59:24,2020-02-27 10:59:32,7.978s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 10:59:32,2020-02-27 11:00:19,47.405s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 10:59:32,2020-02-27 10:59:37,4.847s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 10:59:37,2020-02-27 10:59:42,5.126s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 10:59:42,2020-02-27 10:59:47,5.003s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 10:59:47,2020-02-27 10:59:48,0.872s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 10:59:48,2020-02-27 10:59:49,0.994s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 10:59:49,2020-02-27 10:59:49,0.699s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 10:59:49,2020-02-27 10:59:52,2.826s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 10:59:52,2020-02-27 11:00:02,10.003s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.002s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.004s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.008s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.013s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.069s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.005s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:02,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 11:00:02,2020-02-27 11:00:03,0.899s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 11:00:03,2020-02-27 11:00:08,5.004s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 11:00:08,2020-02-27 11:00:10,1.322s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 11:00:10,2020-02-27 11:00:19,9.624s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 11:00:19,2020-02-27 11:01:04,45.213s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 11:00:19,2020-02-27 11:00:25,5.325s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 11:00:25,2020-02-27 11:00:30,5.066s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 11:00:30,2020-02-27 11:00:35,5.005s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 11:00:35,2020-02-27 11:00:35,0.702s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 11:00:35,2020-02-27 11:00:36,0.589s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 11:00:36,2020-02-27 11:00:37,0.687s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 11:00:37,2020-02-27 11:00:40,3.120s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 11:00:40,2020-02-27 11:00:50,10.003s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.005s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.004s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:50,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 11:00:50,2020-02-27 11:00:51,0.902s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 11:00:51,2020-02-27 11:00:56,5.003s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 11:00:56,2020-02-27 11:00:56,0.619s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 11:00:56,2020-02-27 11:01:04,8.119s,PASSED
+,,,,,,,
+Test Cases/Maintenance 1,Firefox 73.0,,,2020-02-27 11:01:04,2020-02-27 11:01:51,47.023s,PASSED
+"openBrowser("""")",Firefox 73.0,,,2020-02-27 11:01:04,2020-02-27 11:01:10,6.013s,PASSED
+"navigateToUrl(""https://twitter.com"")",Firefox 73.0,,,2020-02-27 11:01:10,2020-02-27 11:01:15,4.323s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 11:01:15,2020-02-27 11:01:20,5.002s,PASSED
+"click(findTestObject(""Maintenance/Halaman Awal/div_Log in""))",Firefox 73.0,,,2020-02-27 11:01:20,2020-02-27 11:01:21,0.805s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Phone email or username_sessionusername_or_email""), Username)",Firefox 73.0,,,2020-02-27 11:01:21,2020-02-27 11:01:22,1.484s,PASSED
+"setText(findTestObject(""Maintenance/Halaman Login/input_Password_sessionpassword""), Password)",Firefox 73.0,,,2020-02-27 11:01:22,2020-02-27 11:01:23,0.644s,PASSED
+"click(findTestObject(""Maintenance/Halaman Login/div_Log in""))",Firefox 73.0,,,2020-02-27 11:01:23,2020-02-27 11:01:26,2.789s,PASSED
+delay(10),Firefox 73.0,,,2020-02-27 11:01:26,2020-02-27 11:01:36,10.009s,PASSED
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.002s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.003s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"setText(findTestObject(""Maintenance/Search Mutualan""), ""mutualan rt"")",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Span Mutualan RT""), STOP_ON_FAILURE)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Tweet Pertama Mutualan""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Klik Retweet""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 1""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 2""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(20),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 3""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 4""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Follow 5""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Close""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Explore""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Show More Hastag""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"scrollToPosition(0, 9)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"scrollToPosition(0, 99)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"scrollToPosition(0, 999)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"scrollToPosition(0, 9999)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"scrollToPosition(0, 0)",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(5),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Notifikasi""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Notification Mention""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Message""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button List""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Subscribed""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/List Member""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Profile""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Tweet and Replies""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Media""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.003s,NOT_RUN
+"click(findTestObject(""Maintenance/Profile - Likes""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting and Privacy""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Privacy and safety""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Notification""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Content preferences""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Display""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Data Usage""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - Accessibility""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.002s,NOT_RUN
+"click(findTestObject(""Maintenance/Setting - About Twitter""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(10),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.001s,NOT_RUN
+"click(findTestObject(""Maintenance/Button Home""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+delay(15),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.000s,NOT_RUN
+"click(findTestObject(""Maintenance/Logout/div_Selengkapnya""))",Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:36,0.778s,PASSED
+delay(5),Firefox 73.0,,,2020-02-27 11:01:36,2020-02-27 11:01:41,5.003s,PASSED
+"click(findTestObject(""Maintenance/Keluar/div_Keluar""))",Firefox 73.0,,,2020-02-27 11:01:41,2020-02-27 11:01:42,0.608s,PASSED
+closeBrowser(),Firefox 73.0,,,2020-02-27 11:01:42,2020-02-27 11:01:51,9.484s,PASSED
